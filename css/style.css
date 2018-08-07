@@ -54,8 +54,10 @@ body{
     height:200px;
     background-color: white; 
     margin: 15px auto;
-    padding: 5px;
+    padding: 10px;
     overflow: auto;
+    font-size: 12px;
+    text-align: justify;
 }
 
 .result-container{
@@ -71,8 +73,14 @@ body{
     height: 50px;
     background-color: white;
     margin:10px auto;
+    text-align: center;
 }
-
+#result-num{
+    display: inline-block;
+    font-size:14px;
+    text-align: center;
+    margin: 15px auto;
+}
 .btn-container{
     display: inline-block;
     height: 250px;
@@ -84,6 +92,7 @@ body{
     width: 50px;
     margin-top: -6px;
     padding-top: 5px;
+    outline:none;
     line-height: 4.4em;
     text-align: center;
     text-transform: uppercase;
