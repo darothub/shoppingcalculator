@@ -1,0 +1,2 @@
+# shoppingcalculator
+calculation made easy
